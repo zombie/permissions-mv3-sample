@@ -15,11 +15,12 @@
   },
 
   "permissions": [
-    "tabs"
+    "tabs",
+    "scripting"
   ],
   "host_permissions": [
     "<all_urls>",
-    "*://example.com/*",
+    "http://example.com/*",
     "*://*.google.com/*"
   ],
   "optional_permissions": [

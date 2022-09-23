@@ -26,10 +26,6 @@
           <a href="#" class="permission" data-permission="http://example.com/" data-action="grant">granted</a> or
           <a href="#" class="permission" data-permission="http://example.com/" data-action="revoke">revoked</a>.
         </li>
-        <li>The <code>*://*.example.com</code> permission is an optional permission that can be
-          <a href="#" class="permission" data-permission="*://*.foo.com/" data-action="grant">granted</a> or
-          <a href="#" class="permission" data-permission="*://*.foo.com/" data-action="revoke">revoked</a>.
-        </li>
         <li>The <code>mail.google.com</code> permission is an optional permission that can be
           <a href="#" class="permission" data-permission="https://mail.google.com/" data-action="grant">granted</a> or
           <a href="#" class="permission" data-permission="https://mail.google.com/" data-action="revoke">revoked</a>.
@@ -38,7 +34,7 @@
         <li>The <code>foo</code> permission cannot be <a href="#" class="permission" data-permission="foo" data-action="grant">granted</a>, because it is not a valid permission name.</li>
       </ul>
       <p>
-        Custom origin <input id="custom" value="*://google.com/"> can be
+        Custom origin <input id="custom" value="*://*.google.com/"> can be
         <a href="#" class="permission" data-custom=1 data-action="grant">granted</a> or
         <a href="#" class="permission" data-custom=1 data-action="revoke">revoked</a>.
       </p>
